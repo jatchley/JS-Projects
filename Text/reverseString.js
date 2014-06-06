@@ -4,5 +4,5 @@ function reverse(string) {
 	return string.split("").reverse().join("");
 };
 
-// Test case
+// Test case.
 console.log(reverse("Hello world!"));
