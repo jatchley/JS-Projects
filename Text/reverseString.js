@@ -2,7 +2,7 @@
 
 function reverse(string) {
 	return string.split("").reverse().join("");
-}
+};
 
-// test case
+// Test case
 console.log(reverse("Hello world!"));
