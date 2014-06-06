@@ -22,7 +22,7 @@ var products = [
     bananas = Product('Bananas', 5, 0, 'bunches'),
 ];
 
-// Inventory of the products
+// Inventory class
 var Inventory = {
 	totalValue: 0,
 
@@ -33,8 +33,9 @@ var Inventory = {
 		}
 	},
 
+// List of products, separated by in stock and out of stock
 	productList: function() {
-		console.log("Here are the items currently in stock:");
+		console.log("Currently in stock:");
 	for (var i = 0; i < products.length; i++) {
 		if (products[i].quantity > 0) {
     		console.log(products[i].name);
@@ -51,4 +52,4 @@ var Inventory = {
 Inventory.totalAdd();
 Inventory.productList();
 console.log("The total value of all the milk in inventory is $" + milk.getValue() + ", constituting " + milk.quantity + " " + milk.measurement + " at a cost of $" + milk.price + " per unit.");
-console.log("The total value of the items in inventory is $" + Inventory.totalValue );
+console.log("The total value of the items in inventory is $" + Inventory.totalValue);
