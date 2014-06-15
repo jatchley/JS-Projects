@@ -1,9 +1,9 @@
 // Write a program where the user chooses a number between 1 and 1000.  Then the program guesses that number in 10 attempts or less.
 
 
-// Uncomment whichever method you want to use. This is the user-input number the computer will attempt to guess.
+// Uncomment whichever method you want to use. This is the number the computer will attempt to guess.
 // var input = prompt("Pick a number between 1 and 1000:");
-// var input = 500;
+var input = 499;
 
 // The range of numbers the computer will guess between.
 var high = 1000;
